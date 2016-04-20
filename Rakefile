@@ -1,4 +1,4 @@
-SSH = 'ssh -A -i ~/git/bitfield/bitfield.pem -1 ubuntu'
+SSH = 'ssh -A -i ~/git/cookbook/cookbook.pem -1 ubuntu'
 
 desc "Run Puppet on ENV['CLIENT']"
 task :apply do
